@@ -50,8 +50,6 @@ if [[ -z "$SCREEN_NAME" ]]; then
     echo -n "$SCREEN_NAME" > "$MCPATH/screen_name"
 fi
 
-ME=$(whoami)
-
 psgrep() {
     psgreptmp=$(mktemp)
 
